@@ -17,6 +17,7 @@ Ao colar a chave do endereço será possível visualizar todas as moedas e trans
 npm install bip32
 npm install bip39
 npm install bitcoinjs-lib
+start = node cretWallet.js 
 ```
 
 ## code 
