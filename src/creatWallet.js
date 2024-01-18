@@ -16,7 +16,7 @@ const path ='m/49/1/0/0'
 let mnemonic = bip39.generateMnemonic()
 const seed = bip39.mnemonicToSeedSync(mnemonic)
 
-//cirando a raiz da carteira HD
+//criando a raiz da carteira HD -
 let root = bip32.fromSeed(seed, network)
 
 //criação de conta - par pvt-pub keys
