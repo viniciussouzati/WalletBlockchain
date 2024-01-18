@@ -3,10 +3,10 @@
 
 
 ## Utilização
-Esse é um Wallet Generator tester. Para criação muda const path de 0 para 1.
+Esse é um Wallet Generator tester. Mude a const path de 0 para 1 para criação real.
 
 Você pode ver visulizar esse test no site "https://blockexplorer.one/bitcoin/testnet". 
-Ao colar a chave do endereço, será possível visualizar todas as moedas e transações. 
+Ao colar a chave do endereço será possível visualizar todas as moedas e transações. 
 
 
 ## Installation
