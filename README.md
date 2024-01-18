@@ -1,7 +1,17 @@
 # Bitcoin Wallet Generator
  Script em Node.js com pacotes bit32, bit39 e bitcoinjs-lib. Ele gera uma carteira, chave privada em WIF e endereço público em P2PKH com foco em Bitcoin.
 
+
+## Utilização
+Esse é um Wallet Generator tester. Para criação muda const path de 0 para 1.
+
+Você pode ver visulizar esse test no site "https://blockexplorer.one/bitcoin/testnet". 
+Ao colar a chave do endereço, será possível visualizar todas as moedas e transações. 
+
+
 ## Installation
+
+
 
 ```
 npm install bip32
@@ -30,9 +40,4 @@ const bitcoin = require("bitcoinjs-lib")
        Por: @viniciussouzati | Wallet Generator | 2023 | Project under development
         """))
 
-## Utilização
 
-Esse é um Wallet Generator tester. Para criação muda const path ='m/49/1/0/0' para const path ='m/49/0/0/0'.
-
-Você pode ver visulizar esse test no site "https://blockexplorer.one/bitcoin/testnet". Ao colar a chave do endereço, será possível visualizar todas as moedas e transações. 
- 
