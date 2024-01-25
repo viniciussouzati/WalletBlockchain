@@ -39,6 +39,6 @@ const bitcoin = require("bitcoinjs-lib")
 
 
        Por: @viniciussouzati | Wallet Generator | 2023 | Project under development
-        """))
+        """)
 
 
